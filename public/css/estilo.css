@@ -64,3 +64,25 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+/* Personalización del menú desplegable */
+.dropdown-menu {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.dropdown-item:active, 
+.dropdown-item:hover {
+    background-color: #f8c3d5 !important; /* El rosa suave de Aura Beauty */
+    color: #000 !important;
+}
+
+/* Opcional: un efecto suave al aparecer */
+.dropdown-menu.show {
+    animation: fadeIn 0.3s fill-mode;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

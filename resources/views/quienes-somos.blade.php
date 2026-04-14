@@ -19,7 +19,7 @@ rel="stylesheet">
             <div class="col-md-6">
                 <h2 style="font-family: 'Playfair Display';">Nuestra Trayectoria</h2>
                 <p class="mt-4">
-                    Aura Beauty nació en 2025 con el propisito de acercar productos de calidad a todo el país. Nos especializamos en exportar los mejores productos de Rare Beauty, seleccionando cada tono y textura pensando en nuestras bellas clientas.
+                    Aura Beauty nació en 2025 con el propisito de acercar productos de calidad a todo el país. Nos especializamos en importar los mejores productos de Rare Beauty, seleccionando cada tono y textura pensando en nuestras bellas clientas.
                 </p>
                 
             </div>
