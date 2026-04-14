@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aura Beauty </title>
+    <title>Aura Beauty</title>
     
-    <<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-         <link rel="stylesheet" href="{{ asset('css/estilo.css') }}">
-    </head>
-<body>
- <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 sticky-top border-bottom">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/estilo.css') }}">
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 sticky-top border-bottom">
     <div class="container">
         <a class="navbar-brand fw-bold" href="/">AURA BEAUTY</a>
         
@@ -47,38 +47,35 @@ rel="stylesheet">
         </div>
     </div>
 </nav>
-<section class="py-5 bg-light">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <h2 style="font-family: 'Playfair Display';">Nuestra Trayectoria</h2>
-                <p class="mt-4">
-                    Aura Beauty nació en 2025 con el propisito de acercar productos de calidad a todo el país. Nos especializamos en importar los mejores productos de Rare Beauty, seleccionando cada tono y textura pensando en nuestras bellas clientas.
-                </p>
-                
-            </div>
-        </div>
-    </div>
-</section>
-<section class="container py-5">
-    <h2 class="text-center mb-5" style="font-family: 'Playfair Display';">El Equipo Aura</h2>
-    <div class="row">
-        <div class="col-md-4 text-center mb-4">
-            <div class="p-3">
-                <img src="/img/staff1.jpg" class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;" alt="hola">
-                <h5 class="fw-bold">Esquenazi Brenda</h5>
-                <p class="text-muted">Fundadora</p>
-            </div>
-        </div>
-        
-        <div class="col-md-4 text-center mb-4">
-            <div class="p-3">
-                <img src="/img/staff2.jpg" class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;" alt="hola">
-                <h5 class="fw-bold">Galeano Paulina</h5>
-                <p class="text-muted">Fundadora</p>
+    <div class="container mt-5">
+<a href="#" class="btn btn-secondary mt-3">Contactar</a>
+<div class="container mt-5">
+<div class="card mt-4">
+ <div class="card-body">
+ <h2>Formulario de contacto</h2>
+ <form>
+ <div class="mb-3">
+ <label class="form-label">Nombre</label>
+ <input type="text" class="form-control" placeholder="Ingrese su
+nombre">
+ </div>
+ <div class="mb-3">
+ <label class="form-label">Email</label>
+ <input type="email" class="form-control" placeholder="Ingrese su
+email">
+ </div>
+ <div class="mb-3">
+ <label class="form-label">Mensaje</label>
+ <textarea class="form-control" rows="3"></textarea>
+ </div>
+ <button type="submit" class="btn btn-success">
+ Enviar mensaje
+ </button>
+ </form>
+ </div>
 </div>
-    </div>
-</section>
+<div class="mb-3">
+
 <footer class="bg-white py-5 border-top mt-5">
 
     <div class="container">
@@ -151,5 +148,5 @@ rel="stylesheet">
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<body>
+    </html>

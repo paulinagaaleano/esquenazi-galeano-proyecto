@@ -17,6 +17,14 @@ Route::get('/envios', function () {
     return view('envios'); 
 });
 
+Route::get('/contacto', function () {
+    return view('contacto'); 
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
 use App\Http\Controllers\CatalogoController;
 
 // Ruta para el botón "Ver Colección"
