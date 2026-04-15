@@ -38,6 +38,16 @@ class CatalogoController extends Controller
             'nombre' => 'Rubores',
             'slug' => 'rubores',
             'imagen' => 'portadaRubor.jpg'
+        ],
+        (object)[
+            'nombre' => 'Rimmel',
+            'slug' => 'rimmels',
+            'imagen' => 'public/img/Portada/portadaRimmel.jpg'
+        ],
+        (object)[
+            'nombre' => 'Polvos',
+            'slug' => 'polvos',
+            'imagen' => 'portadaPolvos.jpg'
         ]
     ];
         return view('catalogo.index', compact('categorias'));

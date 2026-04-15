@@ -13,40 +13,7 @@
     <link rel="stylesheet" href="{{ asset('css/estilo.css') }}">
 </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 sticky-top border-bottom">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="/">AURA BEAUTY</a>
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto align-items-center">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle px-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Catálogo
-                    </a>
-                    <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarDropdown">
-    <li><a class="dropdown-item" href="{{ route('catalogo.show', 'labiales') }}">Labiales</a></li>
-    <li><a class="dropdown-item" href="{{ route('catalogo.show', 'bases') }}">Bases Líquidas</a></li>
-    <li><a class="dropdown-item" href="{{ route('catalogo.show', 'correctores') }}">Correctores</a></li>
-</ul>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link px-3" href="{{ url('/quienes-somos') }}">Quiénes Somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link px-3" href="{{ url('/envios') }}">Envíos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link px-3" href="{{ url('/contacto') }}">Contacto</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+         @include('partes.nav') 
     <div class="container mt-5">
 <a href="#" class="btn btn-secondary mt-3">Contactar</a>
 <div class="container mt-5">
@@ -76,76 +43,7 @@ email">
 </div>
 <div class="mb-3">
 
-<footer class="bg-white py-5 border-top mt-5">
-
-    <div class="container">
-
-        <div class="row">
-
-
-            <div class="col-md-4 mb-4">
-
-                <h5 class="fw-bold">AURA BEAUTY</h5>
-
-                <p class="text-muted small">Realzando tu belleza natural con Rare Beauty.</p>
-
-            </div>
-
-            <div class="col-md-4 mb-4">
-
-                <h6 class="fw-bold text-uppercase small">Navegación</h6>
-
-                <ul class="list-unstyled">
-
-                    <li><a href="{{ url('/') }}" class="text-decoration-none text-muted small">Inicio</a></li>
-
-                    <li><a href="{{ url('/catalogo') }}" class="text-decoration-none text-muted small">Catálogo</a></li>
-
-                    <li><a href="{{ url('/quienes-somos') }}" class="text-decoration-none text-muted small">Quiénes Somos</a></li>
-
-                </ul>
-
-            </div>
-
-
-
-            <div class="col-md-4 mb-4">
-
-                <h6 class="fw-bold text-uppercase small">Información</h6>
-
-                <ul class="list-unstyled">
-
-                    <li><a href="{{ url('/envios') }}" class="text-decoration-none text-muted small">Envíos y Pagos</a></li>
-
-                    <li><a href="{{ url('/contacto') }}" class="text-decoration-none text-muted small">Contacto</a></li>
-
-                    <li><a href="{{ url('/terminos') }}" class="text-decoration-none text-muted small">Términos y Usos</a></li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-
-
-        <hr class="my-4 text-muted">
-
-
-
-        <div class="text-center">
-
-            <p class="text-muted mb-0" style="font-size: 0.75rem;">
-
-                &copy; 2026 Aura Beauty. Todos los derechos reservados.
-
-            </p>
-
-        </div>
-
-    </div>
-
-</footer>
+ @include('partes.footer')
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <body>
