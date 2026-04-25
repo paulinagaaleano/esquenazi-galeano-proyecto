@@ -45,12 +45,15 @@
 </div>
 
 <header class="hero-banner">
-        <div class="container">
-            <h1 style="font-family: 'Playfair Display'; font-size: 3rem;"> Productos exclusivos "Rare Beauty"</h1>
-            <p>Tu tienda de maquillajes.</p>
-           
-        </div>
-    </header>
+    <div class="container">
+        <h1 style="font-family: 'Playfair Display'; font-size: 3rem;"> Productos exclusivos "Rare Beauty"</h1>
+        <p>Tu tienda de maquillajes.</p>
+        
+        <a href="{{ url('/coleccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> Explorar Colecciones</a>
+        <a href="{{ url('/todosProductos') }}" class="btn btn-dark btn-sm w-10 rounded-0"> Ver Todo</a>
+    </div>
+</header><
+
 <section class="py-5 bg-white">
     <div class="container">
         <div class="text-center mb-5">

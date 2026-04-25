@@ -29,7 +29,6 @@
                         <li><a class="dropdown-item" href="{{ route('catalogo.rubores') }}">Rubores</a></li>
                         <li><a class="dropdown-item" href="{{ route('catalogo.correctores') }}">Correctores</a></li>
                         <li><a class="dropdown-item" href="{{ route('catalogo.iluminadores') }}">Iluminadores</a></li>
-                        <li><a class="dropdown-item" href="{{ route('catalogo.rimmels') }}">Rimmel</a></li>
                         <li><a class="dropdown-item" href="{{ route('catalogo.polvos') }}">Polvos Compactos</a></li>
                     </ul>
                 </li>

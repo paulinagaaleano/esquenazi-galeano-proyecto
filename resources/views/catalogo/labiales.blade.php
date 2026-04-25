@@ -10,16 +10,6 @@
         <p class="text-center text-muted mb-5" style="font-family: 'Montserrat';">Encontrá tu tono ideal para cada momento</p>
 
         <div class="row g-4">
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab5.webp') }}" class="img-fluid" alt="Labial"></div>
-                    <div class="card-body">
-                        <h5 class="small fw-bold">Soft Pinch Rose</h5>
-                        <p class="text-pink fw-bold">$25.500</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
-                    </div>
-                </div>
-            </div>
 
             <div class="col-6 col-md-4 col-lg-3">
                 <div class="card h-100 border-0 shadow-sm text-center">
@@ -27,17 +17,6 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Dewy Dream Balm</h5>
                         <p class="text-pink fw-bold">$22.000</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab7.webp') }}" class="img-fluid" alt="Labial"></div>
-                    <div class="card-body">
-                        <h5 class="small fw-bold">Matte Kindness</h5>
-                        <p class="text-pink fw-bold">$28.900</p>
                         <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
                     </div>
                 </div>
@@ -54,16 +33,6 @@
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab9.webp') }}" class="img-fluid" alt="Labial"></div>
-                    <div class="card-body">
-                        <h5 class="small fw-bold">Lip Soufflé Confident</h5>
-                        <p class="text-pink fw-bold">$26.000</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
-                    </div>
-                </div>
-            </div>
 
             <div class="col-6 col-md-4 col-lg-3">
                 <div class="card h-100 border-0 shadow-sm text-center">
@@ -82,6 +51,17 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Matte Fearless</h5>
                         <p class="text-pink fw-bold">$28.900</p>
+                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab5.webp') }}" class="img-fluid" alt="Labial"></div>
+                    <div class="card-body">
+                        <h5 class="small fw-bold">Soft Pinch Rose</h5>
+                        <p class="text-pink fw-bold">$25.500</p>
                         <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
                     </div>
                 </div>
@@ -148,50 +128,6 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Love Energy</h5>
                         <p class="text-pink fw-bold">$25.500</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="p-3"><img src="{{ asset('img/lab2.webp') }}" class="img-fluid" alt="Labial"></div>
-                    <div class="card-body">
-                        <h5 class="small fw-bold">Cinnamon Dew</h5>
-                        <p class="text-pink fw-bold">$22.800</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="p-3"><img src="{{ asset('img/lab3.webp') }}" class="img-fluid" alt="Labial"></div>
-                    <div class="card-body">
-                        <h5 class="small fw-bold">Graceful Mauve</h5>
-                        <p class="text-pink fw-bold">$28.900</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="p-3"><img src="{{ asset('img/lab4.webp') }}" class="img-fluid" alt="Labial"></div>
-                    <div class="card-body">
-                        <h5 class="small fw-bold">Happy Glow</h5>
-                        <p class="text-pink fw-bold">$24.000</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100 border-0 shadow-sm text-center">
-                    <div class="p-3"><img src="{{ asset('img/lab1.webp') }}" class="img-fluid" alt="Labial"></div>
-                    <div class="card-body">
-                        <h5 class="small fw-bold">Aura Signature</h5>
-                        <p class="text-pink fw-bold">$30.000</p>
                         <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
                     </div>
                 </div>

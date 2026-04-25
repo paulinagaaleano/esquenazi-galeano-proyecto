@@ -6,7 +6,6 @@ Route::get('/', function () {
     return view('pagina-principal'); // Tu archivo principal Aura Beauty
 });
 
-
 // Una ruta para cada página, bien clarito
 Route::get('/catalogo/labiales', function () {
     return view('catalogo.labiales'); 
@@ -23,10 +22,6 @@ Route::get('/catalogo/correctores', function () {
 Route::get('/catalogo/rubores', function () {
     return view('catalogo.rubores');
 })->name('catalogo.rubores');
-
-Route::get('/catalogo/rimmels', function () {
-    return view('catalogo.rimmels');
-})->name('catalogo.rimmels');
 
 Route::get('/catalogo/iluminadores', function () {
     return view('catalogo.iluminadores');
@@ -61,4 +56,14 @@ Route::get('/terminos', function () {
     return view('terminos');
 });
 
+Route::get('/coleccion', function () {
+    return view('coleccion');
+});
 
+Route::get('/catalogo', function () {
+    return view('coleccion');
+});
+
+Route::get('/todosProductos', function () {
+    return view('todosProductos'); 
+});
