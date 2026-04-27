@@ -57,7 +57,7 @@
                     <a class="nav-link px-3" href="{{ url('/quienes-somos') }}">Quiénes Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="{{ url('/envios') }}">Comercialización</a>
+                    <a class="nav-link px-3" href="{{ url('/comercializacion') }}">Comercialización</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link px-3" href="{{ url('/consultas') }}">Consultas</a>

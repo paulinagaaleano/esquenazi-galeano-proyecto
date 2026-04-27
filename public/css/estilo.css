@@ -95,7 +95,7 @@ section p {
 
 .img-fluid-carrusel {
     /* En el monitor de la PC ahora medirá 400px (antes 550px) */
-    height: 550px;
+    height:700px;
     object-fit: cover;
     object-position: center;
     width: 100%;

@@ -41,8 +41,8 @@ Route::get('/quienes-somos', function () {
 });
 
 // 5. Ruta de Envíos y Pagos (Comercialización)
-Route::get('/envios', function () {
-    return view('envios');
+Route::get('/comercializacion', function () {
+    return view('comercializacion');
 });
 
 // 6. Ruta de Contacto

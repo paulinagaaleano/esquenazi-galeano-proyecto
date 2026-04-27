@@ -39,7 +39,7 @@
 
                 <ul class="list-unstyled">
 
-                    <li><a href="{{ url('/envios') }}" class="text-decoration-none text-muted small">Envíos y Pagos</a></li>
+                    <li><a href="{{ url('/comercializacion') }}" class="text-decoration-none text-muted small">Envíos y Pagos</a></li>
 
                     <li><a href="{{ url('/contacto') }}" class="text-decoration-none text-muted small">Contacto</a></li>
 
