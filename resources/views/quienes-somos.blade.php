@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
-@include('partes.head') 
+<head>
+    @include('partes.head')
+</head>
 <body>
  @include('partes.nav')
 
@@ -22,7 +24,7 @@
     <div class="row">
         <div class="col-md-4 text-center mb-4">
             <div class="p-3">
-                <img src="/img/staff1.jpg" class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;" alt="hola">
+                <img src="/img/Creadoras/be.jpeg" class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;" alt="hola">
                 <h5 class="fw-bold">Esquenazi Brenda</h5>
                 <p class="text-muted">Fundadora</p>
             </div>

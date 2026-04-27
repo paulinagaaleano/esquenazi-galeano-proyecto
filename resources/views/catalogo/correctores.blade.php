@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
-@include('partes.head') 
+<head>
+    @include('partes.head')
+</head>
 <body>
 
 @include('partes.nav')
@@ -12,7 +14,7 @@
 
         <div class="row g-4">
     
-    <div class="col-6 col-md-4 col-lg-3">
+   <div class="col-6 col-md-4 col-lg-3">
         <div class="card h-100 border-0 shadow-sm text-center">
             <div class="p-3">
                 <img src="{{ asset('img/Prod-correctores/corrector1.webp') }}" class="img-fluid" alt="Corrector">
@@ -20,7 +22,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Brighten & Fix Concealer</h5>
                 <p class="text-pink fw-bold">$18.500</p>
-                <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                 <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -33,7 +35,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Full Coverage Master</h5>
                 <p class="text-pink fw-bold">$21.000</p>
-                <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+            <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -46,7 +48,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Hydra-Bright Eye Serum</h5>
                 <p class="text-pink fw-bold">$23.400</p>
-                <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+               <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -59,7 +61,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Invisible Spot Cover</h5>
                 <p class="text-pink fw-bold">$19.800</p>
-                <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -72,7 +74,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Ultra HD Light Wand</h5>
                 <p class="text-pink fw-bold">$25.200</p>
-                <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+               <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -85,7 +87,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Creamy Matte Camouflage</h5>
                 <p class="text-pink fw-bold">$17.900</p>
-                <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+               <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -98,7 +100,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Radiant Lift Concealer</h5>
                 <p class="text-pink fw-bold">$22.100</p>
-                <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -111,7 +113,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Soft Focus Airbrush</h5>
                 <p class="text-pink fw-bold">$20.600</p>
-                <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -124,7 +126,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Zero Imperfection Stick</h5>
                 <p class="text-pink fw-bold">$16.500</p>
-                <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>

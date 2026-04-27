@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
-@include('partes.head') 
+<head>
+    @include('partes.head')
+</head>
 <body>
 @include('partes.nav')
 
@@ -12,7 +14,7 @@
         <div class="row g-4">
             
 
-            <div class="col-6 col-md-4 col-lg-3">
+           <div class="col-6 col-md-4 col-lg-3">
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="p-3">
                         <img src="{{ asset('/img/Prod-Rubores/rubor1.webp') }}" class="img-fluid" alt="Rubor">
@@ -20,7 +22,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Soft Pinch Joy</h5>
                         <p class="text-pink fw-bold">$19.500</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -33,7 +35,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Soft Pinch Happy</h5>
                         <p class="text-pink fw-bold">$19.500</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -47,7 +49,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Lucky Pink Glow</h5>
                         <p class="text-pink fw-bold">$18.900</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -60,7 +62,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Graceful Mauve Blush</h5>
                         <p class="text-pink fw-bold">$20.200</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -74,7 +76,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Encourage Soft Pink</h5>
                         <p class="text-pink fw-bold">$19.500</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -87,7 +89,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Worth True Red</h5>
                         <p class="text-pink fw-bold">$21.500</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -100,7 +102,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Virtue Peachy Glow</h5>
                         <p class="text-pink fw-bold">$18.700</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -113,7 +115,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Luminous Spirit</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -126,7 +128,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Sweet Aura Coral</h5>
                         <p class="text-pink fw-bold">$19.800</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -139,7 +141,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Cherish Dewy Pink</h5>
                         <p class="text-pink fw-bold">$20.500</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -152,7 +154,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Aura Signature Rose</h5>
                         <p class="text-pink fw-bold">$25.000</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                       <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -165,7 +167,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Soft Pinch Bliss</h5>
                         <p class="text-pink fw-bold">$19.500</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                       <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>

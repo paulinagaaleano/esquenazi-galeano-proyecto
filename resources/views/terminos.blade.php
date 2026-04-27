@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 
-@include('partes.head') 
+<head>
+    @include('partes.head')
+</head>
 
 <body class="bg-light">
 

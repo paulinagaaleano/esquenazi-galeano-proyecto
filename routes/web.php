@@ -31,6 +31,10 @@ Route::get('/catalogo/polvos', function () {
     return view('catalogo.polvos');
 })->name('catalogo.polvos');
 
+Route::get('/catalogo/todosProductos', function () {
+    return view('/catalogo.todosProductos'); 
+});
+
 // 4. Ruta de Quiénes Somos
 Route::get('/quienes-somos', function () {
     return view('quienes-somos');
@@ -38,13 +42,17 @@ Route::get('/quienes-somos', function () {
 
 // 5. Ruta de Envíos y Pagos (Comercialización)
 Route::get('/envios', function () {
-    return view('envios'); // Asegurate que el archivo se llame envios.blade.php
-})->name('envios.pagos');
+    return view('envios');
+});
 
 // 6. Ruta de Contacto
 Route::get('/contacto', function () {
     return view('contacto');
 })->name('contacto');
+
+Route::get('/consultas', function () {
+    return view('consultas');
+})->name('consultas');
 
 // 7. Ruta de Mi Cuenta (Login/Registro)
 Route::get('/login', function () {
@@ -64,6 +72,6 @@ Route::get('/catalogo', function () {
     return view('coleccion');
 });
 
-Route::get('/todosProductos', function () {
-    return view('todosProductos'); 
+Route::get('/construccion', function () {
+    return view('construccion'); 
 });

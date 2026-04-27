@@ -1,10 +1,30 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="{{ asset('css/estilo.css') }}">
 
+<div id="miniCarruselAnuncios" class="carousel slide bg-aura-banner" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+            <p class="text-center py-2 mb-0 top-bar-text">
+                ✨ ENVÍOS GRATIS A PARTIR DE $50.000 ✨
+            </p>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+            <p class="text-center py-2 mb-0 top-bar-text">
+                💳 3 CUOTAS SIN INTERÉS EN TODA LA TIENDA 💳
+            </p>
+        </div>
+        <div class="carousel-item " data-bs-interval="4000">
+            <p class="text-center py-2 mb-0 top-bar-text">
+                🌿 PRODUCTOS 100% CRUELTY FREE & VEGAN 🌿
+            </p>
+        </div>
+    </div>
+</div>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 sticky-top border-bottom">
     <div class="container">
     
-        <a class="navbar-brand fw-bold" href="/" style="letter-spacing: 3px; font-size: 2.1rem; font-style: italic; font-family: 'Playfair Display', serif !important;">
+        <a class="navbar-brand fw-bold" href="/" style="letter-spacing: 3px; font-size: 2.1rem; font-style: italic; font-family: 'Times New Roman', serif !important;">
             AURA BEAUTY
         </a>
 
@@ -40,7 +60,7 @@
                     <a class="nav-link px-3" href="{{ url('/envios') }}">Comercialización</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="{{ url('/contacto') }}">Contacto</a>
+                    <a class="nav-link px-3" href="{{ url('/consultas') }}">Consultas</a>
                 </li>
             </ul>
         </div>

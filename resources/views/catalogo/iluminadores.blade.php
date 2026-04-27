@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
-@include('partes.head') 
+<head>
+    @include('partes.head')
+</head>
 <body>
 @include('partes.nav')
 
@@ -11,7 +13,7 @@
 
         <div class="row g-4">
 
-            <div class="col-6 col-md-4 col-lg-3">
+             <div class="col-6 col-md-4 col-lg-3">
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="p-3">
                         <img src="{{ asset('img/Prod-Iluminador/iluminador9.webp') }}" class="img-fluid" alt="Iluminador">
@@ -19,7 +21,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Lunar Reflection Beam</h5>
                         <p class="text-pink fw-bold">$22.500</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -32,7 +34,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Sunstruck Bronze Glow</h5>
                         <p class="text-pink fw-bold">$20.800</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -45,7 +47,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Aura</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -58,7 +60,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Cute</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -71,7 +73,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Nice</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -84,7 +86,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Pop</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -97,7 +99,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Lucky</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -111,7 +113,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Rise</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -124,7 +126,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Belong</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -137,7 +139,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Shine</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                        <button class="btn btn-dark btn-sm w-100 rounded-0">COMPRAR</button>
+                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>

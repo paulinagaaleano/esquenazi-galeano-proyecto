@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
-        @include('partes.head')
-    <body>
-         @include('partes.nav') 
-    <div class="container mt-5">
-<a href="#" class="btn btn-secondary mt-3">Contactar</a>
-<div class="container mt-5">
-<div class="card mt-4">
- <div class="card-body">
- <h2>Formulario de contacto</h2>
- <form>
- <div class="mb-3">
- <label class="form-label">Nombre</label>
- <input type="text" class="form-control" placeholder="Ingrese su
-nombre">
- </div>
- <div class="mb-3">
- <label class="form-label">Email</label>
- <input type="email" class="form-control" placeholder="Ingrese su
-email">
- </div>
- <div class="mb-3">
- <label class="form-label">Mensaje</label>
- <textarea class="form-control" rows="3"></textarea>
- </div>
- <button type="submit" class="btn btn-success">
- Enviar mensaje
- </button>
- </form>
- </div>
-</div>
-<div class="mb-3">
-
- @include('partes.footer')
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<head>
+    @include('partes.head')
+</head>
 <body>
-    </html>
+    @include('partes.nav') 
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 style="font-family: 'Playfair Display', serif; font-weight: 700;" class="text-uppercase">¡Comunicate con nosotros desde donde estes!</h1>
+        <p class="text-muted">Servicio de atención al cliente y reclamos disponible</p>
+    </div>
+
+    <div class="row g-5">
+        <div class="col-md-6">
+            <h3 class="h4 mb-4"> Correo y Números de contacto</h3>
+            <div class="accordion" id="accordionEnvios">
+                <div class="accordion-item border-0 shadow-sm mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#envio1">
+                            Email
+                        </button>
+                    </h2>
+                    <div id="envio1" class="accordion-collapse collapse" data-bs-parent="#accordionEnvios">
+                        <div class="accordion-body">
+                          <strong>Atención al público: </strong> atencioncliente@aurabeauty.com
+                           <p class="text-muted"> <strong>Reclamos: </strong> reclamos@aurabeauty.com </p>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0 shadow-sm mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#envio2">
+                           Celulares
+                        </button>
+                    </h2>
+                    <div id="envio2" class="accordion-collapse collapse" data-bs-parent="#accordionEnvios">
+                        <div class="accordion-body">
+                            <strong>Atención al público: </strong>  3794207156
+                          <p class="text-muted"> <strong>Reclamos: </strong> 3794552912 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            </div>
+        </div>
+    </div>
+
+    @include('partes.footer') 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

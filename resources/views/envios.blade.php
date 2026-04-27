@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
-@include('partes.head') 
+<head>
+    @include('partes.head')
+</head>
 <body>
     @include('partes.nav') 
 <div class="container py-5">
@@ -29,7 +31,7 @@
                 <div class="accordion-item border-0 shadow-sm mb-3">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#envio2">
-                            Entrega Express (CABA y GBA)
+                            Entrega Express (Corrientes Capital)
                         </button>
                     </h2>
                     <div id="envio2" class="accordion-collapse collapse" data-bs-parent="#accordionEnvios">
