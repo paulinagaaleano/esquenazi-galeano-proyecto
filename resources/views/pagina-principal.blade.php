@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
+@extends('plantilla')
 
-<head>
-    @include('partes.head')
-</head>
-
-<body>
- @include('partes.nav') 
+@section('contenido')
 
 <div id="carouselAura" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -85,10 +79,5 @@
 
     </div>
 </div>
- </footer>
-     @include('partes.footer')
-</footer>
 
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-     </body>
-</html>
+ @endsection

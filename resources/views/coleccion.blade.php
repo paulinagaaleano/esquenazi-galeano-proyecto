@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    @include('partes.head')
-</head>
+@extends('plantilla')
 
-<body>
- @include('partes.nav')
+@section('contenido')
+
 <section class="py-5 bg-light">
     <div class="container">
         <h1 class="text-center mb-2" style="font-family: 'Playfair Display'; font-weight: 700; letter-spacing: 2px;"> COLECCIONES </h1>
@@ -172,12 +168,4 @@
 </div>
 </div>
     
-
-
-@include('partes.footer') 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-
- </body>
-</html>
+@endsection

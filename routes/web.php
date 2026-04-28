@@ -1,4 +1,5 @@
 <?php
+use Illuminate\Support\Facades\Route;
 
 
 // 1. Ruta de Inicio (Home)
@@ -75,3 +76,4 @@ Route::get('/catalogo', function () {
 Route::get('/construccion', function () {
     return view('construccion'); 
 });
+
