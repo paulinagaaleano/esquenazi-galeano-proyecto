@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
+@extends('plantilla')
 
-<head>
-    @include('partes.head')
-</head>
-
-<body class="bg-light">
-
-    @include('partes.nav') 
-
+@section('contenido')
     <div class="container my-5 shadow-sm bg-white p-5 rounded">
         <div class="row justify-content-center">
             <div class="col-md-10 terms-content">
@@ -38,7 +30,7 @@
         </div>
     </div>
   
-    @include('partes.footer') 
+  
 
-</body>
-</html>
+
+@endsection

@@ -39,7 +39,7 @@
 
                 <ul class="list-unstyled">
 
-                    <li><a href="{{ url('/comercializacion') }}" class="text-decoration-none text-muted small">Envíos y Pagos</a></li>
+                    <li><a href="{{ url('/comercializacion') }}" class="text-decoration-none text-muted small">Comercializacion</a></li>
 
                     <li><a href="{{ url('/contacto') }}" class="text-decoration-none text-muted small">Contacto</a></li>
 
@@ -69,5 +69,5 @@
 
 
     </div>
-
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </footer>
