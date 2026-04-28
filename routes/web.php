@@ -32,9 +32,6 @@ Route::get('/catalogo/polvos', function () {
     return view('catalogo.polvos');
 })->name('catalogo.polvos');
 
-Route::get('/catalogo/todosProductos', function () {
-    return view('/catalogo.todosProductos'); 
-});
 
 // 4. Ruta de Quiénes Somos
 Route::get('/quienes-somos', function () {

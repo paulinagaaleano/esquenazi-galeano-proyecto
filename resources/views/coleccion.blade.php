@@ -2,7 +2,7 @@
 
 @section('contenido')
 
-<section class="py-5 bg-light">
+<main class="py-5" style="background-color">
     <div class="container">
         <h1 class="text-center mb-2" style="font-family: 'Playfair Display'; font-weight: 700; letter-spacing: 2px;"> COLECCIONES </h1>
         <p class="text-center text-muted mb-5" style="font-family: 'Montserrat';">Encontrá el producto perfecto para resaltar tu brillo natural</p>
@@ -13,7 +13,7 @@
         <div style="overflow: hidden; height: 300px;">
             <div class="aura-img-container hover-zoom h-100">
                 <a href="{{ url('/catalogo/bases') }}">
-                    <img src="{{ asset('img/Portada/portadaBase2.jpg') }}" 
+                    <img src="{{ asset('img/Portada/portadaBase.jpg') }}" 
                          class="w-100 h-100" 
                          style="object-fit: cover;" 
                          alt="Bases">
@@ -27,8 +27,8 @@
                 Resaltá tu belleza natural con nuestra línea de Bases Líquidas de alta calidad.
             </p>
             <div class="mt-auto pt-3">
-                <a href="{{ url('/catalogo/bases') }}" class="btn btn-dark w-100 rounded-0 py-2" style="letter-spacing: 1px; font-size: 0.8rem;">
-                    VER COLECCIÓN
+                <a href="{{ url('/catalogo/bases') }}" class="btn btn-light  w-10 rounded-0 py-2" style="letter-spacing: 1px; font-size: 0.8rem;">
+                    VER MÁS
                 </a>
             </div>
         </div>
@@ -40,7 +40,7 @@
         <div style="overflow: hidden; height: 300px;">
             <div class="aura-img-container hover-zoom h-100">
                 <a href="{{ url('/catalogo/labiales') }}">
-                    <img src="{{ asset('img/Portada/portadaLabiales.jpg') }}" 
+                    <img src="{{ asset('img/Portada/portadaLabial.jpg') }}" 
                          class="w-100 h-100" 
                          style="object-fit: cover;" 
                          alt="Labiales">
@@ -53,8 +53,8 @@
                 Tonos vibrantes y texturas sedosas para unos labios inolvidables.
             </p>
             <div class="mt-auto pt-3">
-                <a href="{{ url('/catalogo/labiales') }}" class="btn btn-dark w-100 rounded-0 py-2" style="letter-spacing: 1px; font-size: 0.8rem;">
-                    VER COLECCIÓN
+                <a href="{{ url('/catalogo/labiales') }}" class="btn btn-light  w-10 rounded-0 py-2" style="letter-spacing: 1px; font-size: 0.8rem;">
+                    VER MÁS
                 </a>
             </div>
         </div>
@@ -79,8 +79,8 @@
                 Cubrí imperfecciones con una textura ligera y natural.
             </p>
             <div class="mt-auto pt-3">
-                <a href="{{ url('/catalogo/correctores') }}" class="btn btn-dark w-100 rounded-0 py-2" style="letter-spacing: 1px; font-size: 0.8rem;">
-                    VER COLECCIÓN
+                <a href="{{ url('/catalogo/correctores') }}" class="btn btn-light w-10 rounded-0 py-2" style="letter-spacing: 1px; font-size: 0.8rem;">
+                    VER MÁS
                 </a>
             </div>
         </div>
@@ -92,7 +92,7 @@
         <div style="overflow: hidden; height: 300px;">
             <div class="aura-img-container hover-zoom h-100">
                 <a href="{{ url('/catalogo/iluminadores') }}">
-                    <img src="{{ asset('img/Portada/portadaIluminador2.jpg') }}" 
+                    <img src="{{ asset('img/Portada/portadaIluminador.jpg') }}" 
                          class="w-100 h-100" 
                          style="object-fit: cover;" 
                          alt="Iluminadores">
@@ -105,8 +105,8 @@
                 Destellos de luz que resaltan lo mejor de tus facciones.
             </p>
             <div class="mt-auto pt-3">
-                <a href="{{ url('/catalogo/iluminadores') }}" class="btn btn-dark w-100 rounded-0 py-2" style="letter-spacing: 1px; font-size: 0.8rem;">
-                    VER COLECCIÓN
+                <a href="{{ url('/catalogo/iluminadores') }}" class="btn btn-light  w-10 rounded-0 py-2" style="letter-spacing: 1px; font-size: 0.8rem;">
+                    VER MÁS
                 </a>
             </div>
         </div>
@@ -131,8 +131,8 @@
                 Aportá frescura y color a tus mejillas con tonos irresistibles.
             </p>
             <div class="mt-auto pt-3">
-                <a href="{{ url('/catalogo/rubores') }}" class="btn btn-dark w-100 rounded-0 py-2" style="letter-spacing: 1px; font-size: 0.8rem;">
-                    VER COLECCIÓN
+                <a href="{{ url('/catalogo/rubores') }}" class="btn btn-light w-10 rounded-0 py-2" style="letter-spacing: 1px; font-size: 0.8rem;">
+                    VER MÁS
                 </a>
             </div>
         </div>
@@ -157,8 +157,8 @@
                 Sellá tu maquillaje para un acabado impecable y duradero.
             </p>
             <div class="mt-auto pt-3">
-                <a href="{{ url('/catalogo/polvos') }}" class="btn btn-dark w-100 rounded-0 py-2" style="letter-spacing: 1px; font-size: 0.8rem;">
-                    VER COLECCIÓN
+                <a href="{{ url('/catalogo/polvos') }}" class="btn btn-light w-10 rounded-0 py-2" style="letter-spacing: 1px; font-size: 0.8rem;">
+                    VER MÁS
                 </a>
             </div>
         </div>
@@ -167,5 +167,6 @@
 </div>
 </div>
 </div>
+</main>
     
 @endsection

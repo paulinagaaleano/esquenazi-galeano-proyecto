@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    @include('partes.head')
-</head>
-<body>
+@extends('plantilla')
 
-@include('partes.nav')
-
+@section('contenido')
 <main class="py-5" style="background-color">
     <div class="container">
         <h1 class="text-center mb-2" style="font-family: 'Playfair Display'; font-weight: 700; letter-spacing: 2px;">BASES LÍQUIDAS</h1>
@@ -14,6 +8,7 @@
 
         <div class="row g-4">
             
+
             <div class="col-6 col-md-4 col-lg-3">
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="p-3">
@@ -22,7 +17,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Liquid Touch Foundation</h5>
                         <p class="text-pink fw-bold">$32.000</p>
-                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -35,7 +30,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Always An Optimist Tint</h5>
                         <p class="text-pink fw-bold">$29.500</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -48,7 +43,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Silk Glow Foundation</h5>
                         <p class="text-pink fw-bold">$35.000</p>
-                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -61,7 +56,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Natural Light Tinted</h5>
                         <p class="text-pink fw-bold">$27.800</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -74,7 +69,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Radiant Aura Base</h5>
                         <p class="text-pink fw-bold">$31.200</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -87,7 +82,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Skin Fresh Finish</h5>
                         <p class="text-pink fw-bold">$30.500</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -100,7 +95,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Matte Cloud Dream</h5>
                         <p class="text-pink fw-bold">$33.400</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -113,7 +108,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Velvet Smooth Tint</h5>
                         <p class="text-pink fw-bold">$28.000</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -126,16 +121,13 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Daily Glow Serum Base</h5>
                         <p class="text-pink fw-bold">$26.900</p>
-                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
+   
 
         </div>
     </div>
 </main>
-
-@include('partes.footer')
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+@endsection

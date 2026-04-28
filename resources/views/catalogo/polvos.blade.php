@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    @include('partes.head')
-</head>
-<body>
+@extends('plantilla')
 
-@include('partes.nav')
+@section('contenido')
 
 <main class="py-5" style="background-color">
     <div class="container">
@@ -21,7 +16,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Matte Finish Pressed Powder</h5>
                 <p class="text-pink fw-bold">$24.500</p>
-                <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -34,7 +29,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Translucent Setting Powder</h5>
                 <p class="text-pink fw-bold">$22.000</p>
-                <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -47,7 +42,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Mineral Glow Dust</h5>
                 <p class="text-pink fw-bold">$27.800</p>
-                <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -60,7 +55,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Silk Blur Loose Powder</h5>
                 <p class="text-pink fw-bold">$25.900</p>
-                <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -73,7 +68,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">HD Studio Finishing Powder</h5>
                 <p class="text-pink fw-bold">$29.000</p>
-                <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -86,7 +81,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Velvet Touch Compact</h5>
                 <p class="text-pink fw-bold">$21.500</p>
-             <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+             <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -99,7 +94,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Banana Brighten Powder</h5>
                 <p class="text-pink fw-bold">$23.200</p>
-                 <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                 <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -112,7 +107,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Banana Brighten Powder</h5>
                 <p class="text-pink fw-bold">$23.200</p>
-                 <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                 <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -125,7 +120,7 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Radiant Sun Bronzing Powder</h5>
                 <p class="text-pink fw-bold">$20.400</p>
-                 <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                 <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
@@ -138,15 +133,11 @@
             <div class="card-body">
                 <h5 class="small fw-bold">Radiant Sun Bronzing Powder 2</h5>
                 <p class="text-pink fw-bold">$26.100</p>
-               <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+               <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
     </div>
         </div>
     </div>
 </main>
-
-@include('partes.footer')
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+@endsection

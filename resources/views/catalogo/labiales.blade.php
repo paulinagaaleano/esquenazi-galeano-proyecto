@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    @include('partes.head')
-</head>
-<body>
-     @include('partes.nav') 
+@extends('plantilla')
+
+@section('contenido')
+
 
 <main class="py-5" style="background-color">
     <div class="container">
@@ -19,7 +16,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Dewy Dream Balm</h5>
                         <p class="text-pink fw-bold">$22.000</p>
-                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -30,7 +27,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Glossy Hope</h5>
                         <p class="text-pink fw-bold">$24.300</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -42,7 +39,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Stay Vulnerable Red</h5>
                         <p class="text-pink fw-bold">$23.500</p>
-                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -53,7 +50,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Matte Fearless</h5>
                         <p class="text-pink fw-bold">$28.900</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -64,7 +61,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Soft Pinch Rose</h5>
                         <p class="text-pink fw-bold">$25.500</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -75,7 +72,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Sugar Glaze</h5>
                         <p class="text-pink fw-bold">$21.000</p>
-                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -86,7 +83,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Brave Berry</h5>
                         <p class="text-pink fw-bold">$26.400</p>
-                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -97,7 +94,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Sweet Nude</h5>
                         <p class="text-pink fw-bold">$22.000</p>
-                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -108,7 +105,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Deep Joy Matte</h5>
                         <p class="text-pink fw-bold">$29.000</p>
-                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -119,7 +116,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Pure Shine Oil</h5>
                         <p class="text-pink fw-bold">$24.000</p>
-                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -130,7 +127,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Love Energy</h5>
                         <p class="text-pink fw-bold">$25.500</p>
-                       <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                       <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -138,8 +135,4 @@
         </div>
     </div>
 </main>
-
-@include('partes.footer')
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+@endsection

@@ -16,7 +16,7 @@
 </section>
 
 <section class="container py-5">
-    <h2 class="text-center mb-5" style="font-family: 'Playfair Display';">El Equipo Aura</h2>
+    <h2 class="text-center mb-5" style="font-family: 'Playfair Display';"> Equipo Aura</h2>
 
     <div class="row justify-content-center">
 

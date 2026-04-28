@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    @include('partes.head')
-</head>
-<body>
-@include('partes.nav')
+@extends('plantilla')
+
+@section('contenido')
+
 
 <main class="py-5" style="background-color">
     <div class="container">
@@ -21,7 +18,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Lunar Reflection Beam</h5>
                         <p class="text-pink fw-bold">$22.500</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -34,7 +31,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Sunstruck Bronze Glow</h5>
                         <p class="text-pink fw-bold">$20.800</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -47,7 +44,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Aura</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -60,7 +57,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Cute</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -73,7 +70,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Nice</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -86,7 +83,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Pop</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -99,7 +96,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Lucky</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -113,7 +110,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Rise</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -126,7 +123,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Belong</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                         <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                         <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -139,7 +136,7 @@
                     <div class="card-body">
                         <h5 class="small fw-bold">Golden Hour Shine</h5>
                         <p class="text-pink fw-bold">$23.000</p>
-                        <a href="{{ url('/construccion') }}" class="btn btn-dark btn-sm w-10 rounded-0"> COMPRAR </a>
+                        <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
             </div>
@@ -148,7 +145,4 @@
     </div>
 </main>
 
-@include('partes.footer')
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+@endsection
