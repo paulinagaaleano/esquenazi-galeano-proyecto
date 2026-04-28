@@ -98,7 +98,7 @@ section p {
 /* Para tu notebook (pantallas un poco más chicas) */
 @media (max-width: 1366px) {
     .img-fluid-carrusel {
-        height: 320px; /* En la notebook se verá más hiquito todavía */
+        height: 450px; /* En la notebook se verá más hiquito todavía */
     }
 }
 
