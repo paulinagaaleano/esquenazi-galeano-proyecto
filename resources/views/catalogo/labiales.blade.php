@@ -15,7 +15,7 @@
                     <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab6.webp') }}" class="img-fluid" alt="Labial"></div>
                     <div class="card-body">
                         <h5 class="small fw-bold">Dewy Dream Balm</h5>
-                        <p class="text-pink fw-bold">$22.000</p>
+                        <p class="text-pink fw-bold">$28.900</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -25,8 +25,8 @@
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab8.webp') }}" class="img-fluid" alt="Labial"></div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Glossy Hope</h5>
-                        <p class="text-pink fw-bold">$24.300</p>
+                        <h5 class="small fw-bold"> Hope Balm</h5>
+                        <p class="text-pink fw-bold">$28.900</p>
                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -37,8 +37,8 @@
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab10.webp') }}" class="img-fluid" alt="Labial"></div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Stay Vulnerable Red</h5>
-                        <p class="text-pink fw-bold">$23.500</p>
+                        <h5 class="small fw-bold">Matte Fearless Balm</h5>
+                        <p class="text-pink fw-bold">$28.900</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab11.webp') }}" class="img-fluid" alt="Labial"></div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Matte Fearless</h5>
+                        <h5 class="small fw-bold">Stay Vulnerable Read Balm</h5>
                         <p class="text-pink fw-bold">$28.900</p>
                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
@@ -59,8 +59,8 @@
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab5.webp') }}" class="img-fluid" alt="Labial"></div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Soft Pinch Rose</h5>
-                        <p class="text-pink fw-bold">$25.500</p>
+                        <h5 class="small fw-bold">Pinch Rose Lipstick</h5>
+                        <p class="text-pink fw-bold">$35.500</p>
                         <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -70,8 +70,8 @@
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab12.webp') }}" class="img-fluid" alt="Labial"></div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Sugar Glaze</h5>
-                        <p class="text-pink fw-bold">$21.000</p>
+                        <h5 class="small fw-bold">Wine Glaze Lipstick</h5>
+                        <p class="text-pink fw-bold">$35.500</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -81,8 +81,8 @@
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab13.webp') }}" class="img-fluid" alt="Labial"></div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Brave Berry</h5>
-                        <p class="text-pink fw-bold">$26.400</p>
+                        <h5 class="small fw-bold">Brave Almond Lipstick</h5>
+                        <p class="text-pink fw-bold">$35.500</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -92,8 +92,8 @@
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab14.webp') }}" class="img-fluid" alt="Labial"></div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Sweet Nude</h5>
-                        <p class="text-pink fw-bold">$22.000</p>
+                        <h5 class="small fw-bold">Intense Velvet Lip Balm</h5>
+                        <p class="text-pink fw-bold">$30.000</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -103,8 +103,8 @@
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab15.webp') }}" class="img-fluid" alt="Labial"></div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Deep Joy Matte</h5>
-                        <p class="text-pink fw-bold">$29.000</p>
+                        <h5 class="small fw-bold">Sweet Purplish Lip Balm</h5>
+                        <p class="text-pink fw-bold">$30.000</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab16.webp') }}" class="img-fluid" alt="Labial"></div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Pure Shine Oil</h5>
+                        <h5 class="small fw-bold">Pure Shine Gloss</h5>
                         <p class="text-pink fw-bold">$24.000</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
@@ -125,8 +125,8 @@
                 <div class="card h-100 border-0 shadow-sm text-center">
                     <div class="p-3"><img src="{{ asset('img/Prod-Labiales/lab17.webp') }}" class="img-fluid" alt="Labial"></div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Love Energy</h5>
-                        <p class="text-pink fw-bold">$25.500</p>
+                        <h5 class="small fw-bold">Love Energy Gloss</h5>
+                        <p class="text-pink fw-bold">$24.000</p>
                        <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>

@@ -41,7 +41,7 @@ body {
 }
 
 .top-bar-text {
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Caudex', sans-serif;
     font-size: 0.75rem; 
     font-weight: 500;  
     color: #ebe1e1;      
@@ -51,7 +51,7 @@ body {
 }
 
 .product-image-container {
-    background-color: #672626;
+    background-color: #eae2e2;
     aspect-ratio: 1/1;
     overflow: hidden;
     display: flex;
@@ -85,6 +85,13 @@ section p {
     font-size: 0.9rem;
     text-align: justify; /* Esto alinea el texto a ambos lados */
     line-height: 1.6;
+}
+
+.card-title {
+    font-family: 'Barlow', serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #333;
 }
 
 .img-fluid-carrusel {

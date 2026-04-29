@@ -22,7 +22,7 @@
         </div>
 
         <div class="card-body d-flex flex-column">
-            <h3 class="card-title fw-bold mt-2" style="font-family: 'Playfair Display';">BASES LÍQUIDAS</h3>
+            <h3 class="card-title fw-bold mt-2">BASES LÍQUIDAS</h3>
             <p class="card-text text-muted small px-2">
                 Resaltá tu belleza natural con nuestra línea de Bases Líquidas de alta calidad.
             </p>
@@ -48,7 +48,7 @@
             </div>
         </div>
         <div class="card-body d-flex flex-column">
-            <h3 class="card-title fw-bold mt-2" style="font-family: 'Playfair Display';">LABIALES</h3>
+            <h3 class="card-title fw-bold mt-2">LABIALES</h3>
             <p class="card-text text-muted small px-2">
                 Tonos vibrantes y texturas sedosas para unos labios inolvidables.
             </p>
@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="card-body d-flex flex-column">
-            <h3 class="card-title fw-bold mt-2" style="font-family: 'Playfair Display';">CORRECTORES</h3>
+            <h3 class="card-title fw-bold mt-2">CORRECTORES</h3>
             <p class="card-text text-muted small px-2">
                 Cubrí imperfecciones con una textura ligera y natural.
             </p>
@@ -100,7 +100,7 @@
             </div>
         </div>
         <div class="card-body d-flex flex-column">
-            <h3 class="card-title fw-bold mt-2" style="font-family: 'Playfair Display';">ILUMINADORES</h3>
+            <h3 class="card-title fw-bold mt-2">ILUMINADORES</h3>
             <p class="card-text text-muted small px-2">
                 Destellos de luz que resaltan lo mejor de tus facciones.
             </p>
@@ -126,7 +126,7 @@
             </div>
         </div>
         <div class="card-body d-flex flex-column">
-            <h3 class="card-title fw-bold mt-2" style="font-family: 'Playfair Display';">RUBORES</h3>
+            <h3 class="card-title fw-bold mt-2">RUBORES</h3>
             <p class="card-text text-muted small px-2">
                 Aportá frescura y color a tus mejillas con tonos irresistibles.
             </p>
@@ -152,7 +152,7 @@
             </div>
         </div>
         <div class="card-body d-flex flex-column">
-            <h3 class="card-title fw-bold mt-2" style="font-family: 'Playfair Display';">POLVOS COMPACTOS</h3>
+            <h3 class="card-title fw-bold mt-2">POLVOS COMPACTOS</h3>
             <p class="card-text text-muted small px-2">
                 Sellá tu maquillaje para un acabado impecable y duradero.
             </p>

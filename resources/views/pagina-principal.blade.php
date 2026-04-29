@@ -56,7 +56,7 @@
             <a href="{{ url('/catalogo/labiales') }}">
                 <img src="/img/Portada-principal/labialm.webp" class="card-img-top" alt="Labial" style="height: 400px; object-fit: cover;">
             </a>
-            <div class="card-body d-flex flex-column text-center">
+            <div class="card-body d-flex flex-column">
                 <h6 class="fw-bold mt-2">Labios Perfectos</h6>
                 <p class="small text-muted mb-0">El Tinted Lip Oil combina lo mejor de un tinte labial, un brillo y un tratamiento hidratante.</p>
             </div>
@@ -68,7 +68,7 @@
             <a href="{{ url('/catalogo/bases') }}">
                 <img src="/img/Portada-principal/basep.webp" class="card-img-top" alt="Base" style="height: 400px; object-fit: cover;">
             </a>
-            <div class="card-body d-flex flex-column text-end">
+            <div class="card-body d-flex flex-column">
                 <h6 class="fw-bold mt-2">Piel de Seda</h6>
                 <p class="small text-muted mb-0">Una base de larga duración y un acabado mate natural que realza tu piel.</p>
             </div>

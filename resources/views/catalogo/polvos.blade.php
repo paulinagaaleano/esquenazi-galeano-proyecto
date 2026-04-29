@@ -14,8 +14,9 @@
                 <img src="{{ asset('img/Prod-polvos/polvo1.webp') }}" class="img-fluid" alt="Polvos">
             </div>
             <div class="card-body">
-                <h5 class="small fw-bold">Matte Finish Pressed Powder</h5>
-                <p class="text-pink fw-bold">$24.500</p>
+                <h5 class="Medium fw-bold">Matte Finish Powder</h5>
+                <p class="small text-pink">Light Medium</p>
+                <p class="text-pink fw-bold">$12.500</p>
                 <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
@@ -27,8 +28,9 @@
                 <img src="{{ asset('img/Prod-polvos/polvo2.webp') }}" class="img-fluid" alt="Polvos">
             </div>
             <div class="card-body">
-                <h5 class="small fw-bold">Translucent Setting Powder</h5>
-                <p class="text-pink fw-bold">$22.000</p>
+                <h5 class="Medium fw-bold">Matte Finish Powder</h5>
+                <p class="small text-pink">Fair Neutral</p>
+                <p class="text-pink fw-bold">$12.500</p>
                 <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
@@ -40,8 +42,9 @@
                 <img src="{{ asset('img/Prod-polvos/polvo3.webp') }}" class="img-fluid" alt="Polvos">
             </div>
             <div class="card-body">
-                <h5 class="small fw-bold">Mineral Glow Dust</h5>
-                <p class="text-pink fw-bold">$27.800</p>
+                <h5 class="Medium fw-bold">Matte Finish Powder</h5>
+                <p class="small text-pink">Medium Neutral</p>
+                <p class="text-pink fw-bold">$12.500</p>
                 <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
@@ -53,8 +56,9 @@
                 <img src="{{ asset('img/Prod-polvos/polvo4.webp') }}" class="img-fluid" alt="Polvos">
             </div>
             <div class="card-body">
-                <h5 class="small fw-bold">Silk Blur Loose Powder</h5>
-                <p class="text-pink fw-bold">$25.900</p>
+                <h5 class="Medium fw-bold">Matte Finish Powder</h5>
+                <p class="small text-pink">Medium Deep</p>
+                <p class="text-pink fw-bold">$12.500</p>
                 <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
@@ -66,8 +70,9 @@
                 <img src="{{ asset('img/Prod-polvos/polvo5.webp') }}" class="img-fluid" alt="Polvos">
             </div>
             <div class="card-body">
-                <h5 class="small fw-bold">HD Studio Finishing Powder</h5>
-                <p class="text-pink fw-bold">$29.000</p>
+                <h5 class="Medium fw-bold">Matte Finish Powder</h5>
+                <p class="small text-pink">Deep Neutral</p>
+                <p class="text-pink fw-bold">$12.500</p>
                 <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
@@ -79,7 +84,8 @@
                 <img src="{{ asset('img/Prod-polvos/polvo6.webp') }}" class="img-fluid" alt="Polvos">
             </div>
             <div class="card-body">
-                <h5 class="small fw-bold">Velvet Touch Compact</h5>
+                <h5 class="Medium fw-bold">Velvet Touch Compact</h5>
+                <p class="small text-pink">Traslucent</p>
                 <p class="text-pink fw-bold">$21.500</p>
              <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
@@ -92,8 +98,9 @@
                 <img src="{{ asset('img/Prod-polvos/polvo7.webp') }}" class="img-fluid" alt="Polvos">
             </div>
             <div class="card-body">
-                <h5 class="small fw-bold">Banana Brighten Powder</h5>
-                <p class="text-pink fw-bold">$23.200</p>
+                <h5 class="Medium fw-bold">Velvet Touch Compact</h5>
+                <p class="small text-pink">Medium Deep</p>
+                <p class="text-pink fw-bold">$21.500</p>
                  <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
@@ -105,8 +112,9 @@
                 <img src="{{ asset('img/Prod-polvos/polvo8.webp') }}" class="img-fluid" alt="Polvos">
             </div>
             <div class="card-body">
-                <h5 class="small fw-bold">Banana Brighten Powder</h5>
-                <p class="text-pink fw-bold">$23.200</p>
+                <h5 class="Medium fw-bold">Velvet Touch Compact</h5>
+                <p class="small text-pink">Deep Warm</p>
+                <p class="text-pink fw-bold">$21.500</p>
                  <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>
@@ -118,7 +126,7 @@
                 <img src="{{ asset('img/Prod-polvos/polvoBronzer.webp') }}" class="img-fluid" alt="Polvos">
             </div>
             <div class="card-body">
-                <h5 class="small fw-bold">Radiant Sun Bronzing Powder</h5>
+                <h5 class="small fw-bold">Radiant Sun Bronzing</h5>
                 <p class="text-pink fw-bold">$20.400</p>
                  <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
@@ -131,8 +139,8 @@
                 <img src="{{ asset('img/Prod-polvos/polvoBronzer2.webp') }}" class="img-fluid" alt="Polvos">
             </div>
             <div class="card-body">
-                <h5 class="small fw-bold">Radiant Sun Bronzing Powder 2</h5>
-                <p class="text-pink fw-bold">$26.100</p>
+                <h5 class="small fw-bold">Radiant Sun Bronzing 2</h5>
+                <p class="text-pink fw-bold">$20.400</p>
                <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
             </div>
         </div>

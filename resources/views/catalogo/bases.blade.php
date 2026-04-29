@@ -15,8 +15,9 @@
                         <img src="{{ asset('img/Prod-bases/base1.webp') }}" class="img-fluid" alt="Base Líquida">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Liquid Touch Foundation</h5>
-                        <p class="text-pink fw-bold">$32.000</p>
+                        <h5 class="medium fw-bold">Liquid Foundation</h5>
+                        <p class="small text-pink">Light Medium Warm</p>
+                        <p class="text-pink fw-bold">$55.000</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -28,8 +29,9 @@
                         <img src="{{ asset('img/Prod-bases/base2.webp') }}" class="img-fluid" alt="Base Líquida">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Always An Optimist Tint</h5>
-                        <p class="text-pink fw-bold">$29.500</p>
+                        <h5 class="medium fw-bold">Liquid Foundation</h5>
+                        <p class="small text-pink">Deep Neutral</p>
+                        <p class="text-pink fw-bold">$55.000</p>
                         <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -41,8 +43,9 @@
                         <img src="{{ asset('img/Prod-bases/base3.webp') }}" class="img-fluid" alt="Base Líquida">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Silk Glow Foundation</h5>
-                        <p class="text-pink fw-bold">$35.000</p>
+                        <h5 class="medium fw-bold">Liquid Foundation</h5>
+                        <p class="small text-pink">Medium Deep Neutral</p>
+                        <p class="text-pink fw-bold">$55.000</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -54,8 +57,9 @@
                         <img src="{{ asset('img/Prod-bases/base4.webp') }}" class="img-fluid" alt="Base Líquida">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Natural Light Tinted</h5>
-                        <p class="text-pink fw-bold">$27.800</p>
+                        <h5 class="medium fw-bold">Liquid Foundation</h5>
+                        <p class="small text-pink">Fair Warm</p>
+                        <p class="text-pink fw-bold">$55.000</p>
                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -67,8 +71,9 @@
                         <img src="{{ asset('img/Prod-bases/base5.webp') }}" class="img-fluid" alt="Base Líquida">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Radiant Aura Base</h5>
-                        <p class="text-pink fw-bold">$31.200</p>
+                        <h5 class="medium fw-bold">Liquid Foundation</h5>
+                        <p class="small text-pink">Deep Warm</p>
+                        <p class="text-pink fw-bold">$55.000</p>
                         <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -80,8 +85,9 @@
                         <img src="{{ asset('img/Prod-bases/base6.webp') }}" class="img-fluid" alt="Base Líquida">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Skin Fresh Finish</h5>
-                        <p class="text-pink fw-bold">$30.500</p>
+                        <h5 class="medium fw-bold">Skin Tint Base</h5>
+                        <p class="small text-pink">Fair Warm</p>
+                        <p class="text-pink fw-bold">$48.900</p>
                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -93,8 +99,9 @@
                         <img src="{{ asset('img/Prod-bases/base7.webp') }}" class="img-fluid" alt="Base Líquida">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Matte Cloud Dream</h5>
-                        <p class="text-pink fw-bold">$33.400</p>
+                        <h5 class="medium fw-bold">Skin Tint Base</h5>
+                        <p class="small text-pink">Light Cool Pink</p>
+                        <p class="text-pink fw-bold">$48.900</p>
                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -106,8 +113,9 @@
                         <img src="{{ asset('img/Prod-bases/base8.webp') }}" class="img-fluid" alt="Base Líquida">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Velvet Smooth Tint</h5>
-                        <p class="text-pink fw-bold">$28.000</p>
+                        <h5 class="medium fw-bold">Skin Tint Base</h5>
+                        <p class="small text-pink">Medium Cool Peach</p>
+                        <p class="text-pink fw-bold">$48.900</p>
                         <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -119,8 +127,9 @@
                         <img src="{{ asset('img/Prod-bases/base9.webp') }}" class="img-fluid" alt="Base Líquida">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Daily Glow Serum Base</h5>
-                        <p class="text-pink fw-bold">$26.900</p>
+                        <h5 class="medium fw-bold">Skin Tint Base</h5>
+                        <p class="small text-pink">Deep Warm Golden</p>
+                        <p class="text-pink fw-bold">$48.900</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>

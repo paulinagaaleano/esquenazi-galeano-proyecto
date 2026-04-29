@@ -16,8 +16,8 @@
                         <img src="{{ asset('/img/Prod-Rubores/rubor1.webp') }}" class="img-fluid" alt="Rubor">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Soft Pinch Joy</h5>
-                        <p class="text-pink fw-bold">$19.500</p>
+                        <h5 class="small fw-bold">Soft Pinch Blush</h5>
+                        <p class="text-pink fw-bold">$30.500</p>
                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                         <img src="{{ asset('/img/Prod-Rubores/rubor2.webp') }}" class="img-fluid" alt="Rubor">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Soft Pinch Happy</h5>
+                        <h5 class="small fw-bold">Day&Day Happy Blush </h5>
                         <p class="text-pink fw-bold">$19.500</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
@@ -43,8 +43,8 @@
                         <img src="{{ asset('/img/Prod-Rubores/rubor6.webp') }}" class="img-fluid" alt="Rubor">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Lucky Pink Glow</h5>
-                        <p class="text-pink fw-bold">$18.900</p>
+                        <h5 class="small fw-bold">Luminous Pink Blush</h5>
+                        <p class="text-pink fw-bold">$19.500</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="card-body">
                         <h5 class="small fw-bold">Graceful Mauve Blush</h5>
-                        <p class="text-pink fw-bold">$20.200</p>
+                        <p class="text-pink fw-bold">$19.500</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                         <img src="{{ asset('/img/Prod-Rubores/rubor8.webp') }}" class="img-fluid" alt="Rubor">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Encourage Soft Pink</h5>
+                        <h5 class="small fw-bold">Encourage Soft Blush</h5>
                         <p class="text-pink fw-bold">$19.500</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
@@ -83,8 +83,8 @@
                         <img src="{{ asset('/img/Prod-Rubores/rubor9.webp') }}" class="img-fluid" alt="Rubor">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Worth True Red</h5>
-                        <p class="text-pink fw-bold">$21.500</p>
+                        <h5 class="small fw-bold">True Almond Blush</h5>
+                        <p class="text-pink fw-bold">$19.500</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -96,8 +96,8 @@
                         <img src="{{ asset('/img/Prod-Rubores/rubor10.webp') }}" class="img-fluid" alt="Rubor">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Virtue Peachy Glow</h5>
-                        <p class="text-pink fw-bold">$18.700</p>
+                        <h5 class="small fw-bold">Peachy Glow Blush</h5>
+                        <p class="text-pink fw-bold">$19.500</p>
                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -109,8 +109,8 @@
                         <img src="{{ asset('/img/Prod-Rubores/rubor11.webp') }}" class="img-fluid" alt="Rubor">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Luminous Spirit</h5>
-                        <p class="text-pink fw-bold">$23.000</p>
+                        <h5 class="small fw-bold">Lucky Pink Blush</h5>
+                        <p class="text-pink fw-bold">$19.500</p>
                         <a href="{{ url('/construccion') }}" class="btn btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -122,8 +122,8 @@
                         <img src="{{ asset('/img/Prod-Rubores/rubor12.webp') }}" class="img-fluid" alt="Rubor">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Sweet Aura Coral</h5>
-                        <p class="text-pink fw-bold">$19.800</p>
+                        <h5 class="small fw-bold">Deep Verbena Blush</h5>
+                        <p class="text-pink fw-bold">$19.500</p>
                          <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -135,8 +135,8 @@
                         <img src="{{ asset('/img/Prod-Rubores/rubor13.webp') }}" class="img-fluid" alt="Rubor">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Cherish Dewy Pink</h5>
-                        <p class="text-pink fw-bold">$20.500</p>
+                        <h5 class="small fw-bold">Cherish Liquid Blush</h5>
+                        <p class="text-pink fw-bold">$25.500</p>
                         <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -148,8 +148,8 @@
                         <img src="{{ asset('img/Prod-Rubores/rubor15.webp') }}" class="img-fluid" alt="Rubor">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Aura Signature Rose</h5>
-                        <p class="text-pink fw-bold">$25.000</p>
+                        <h5 class="small fw-bold">Aura Signature Liquid Blush</h5>
+                        <p class="text-pink fw-bold">$25.500</p>
                        <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
@@ -161,8 +161,8 @@
                         <img src="{{ asset('/img/Prod-Rubores/rubor.webp') }}" class="img-fluid" alt="Rubor">
                     </div>
                     <div class="card-body">
-                        <h5 class="small fw-bold">Soft Pinch Bliss</h5>
-                        <p class="text-pink fw-bold">$19.500</p>
+                        <h5 class="small fw-bold">Golden Glow Liquid Blush</h5>
+                        <p class="text-pink fw-bold">$25.500</p>
                        <a href="{{ url('/construccion') }}" class="btn  btn-sm w-10 rounded-0"> COMPRAR </a>
                     </div>
                 </div>
