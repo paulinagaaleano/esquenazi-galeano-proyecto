@@ -44,6 +44,7 @@
                         <li><a class="dropdown-item" href="{{ url('/catalogo/correctores') }}">Correctores</a></li>
                         <li><a class="dropdown-item" href="{{ url('/catalogo/iluminadores') }}">Iluminadores</a></li>
                         <li><a class="dropdown-item" href="{{ url('/catalogo/polvos') }}">Polvos Compactos</a></li>
+                        <li><a class="dropdown-item" href="{{ url('/catalogo/todos') }}">Todos los productos</a></li>
                     </ul>
                 </li>
 

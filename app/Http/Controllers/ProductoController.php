@@ -12,7 +12,6 @@ class ProductoController extends Controller
     {
         $categorias = Categoria::all();
         
-        // Asegurate de que tu archivo visual se llame 'coleccion.blade.php'
         return view('coleccion', compact('categorias'));
     }
 
@@ -21,7 +20,7 @@ class ProductoController extends Controller
         // Buscamos la categoría por su slug (ej: "bases"). Si no existe, tira error 404.
         $cat = \App\Models\Categoria::where('slug', $categoria)->firstOrFail();
 
-        // Gracias a la relación que armamos en el Modelo, podemos traer sus productos así de fácil:
+        // Por la relación que armamos en el Modelo, podemos traer sus productos:
         $productos = $cat->productos;
 
         // Le mandamos a la vista los productos y el nombre real de la categoría
@@ -29,6 +28,15 @@ class ProductoController extends Controller
         'productos' => $productos,
         'categoria' => $cat->nombre // Pasamos el nombre lindo (ej: "Bases")
         ]);
+    }
+
+    public function mostrarTodos(){
+    
+    // Traemos TODOS los productos de SQLite (Laravel ignora solitos los SoftDeletes)
+    $productos = Producto::all();
+
+    // Mandamos los datos a una nueva vista
+    return view('catalogo.todos', compact('productos'));
     }
     
     /**

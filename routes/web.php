@@ -33,8 +33,6 @@ Route::get('/catalogo/polvos', function () {
     return view('catalogo.polvos');
 })->name('catalogo.polvos');*/
 
-Route::get('/catalogo/{categoria}', [ProductoController::class, 'mostrarCategoria']);
-
 // 4. Ruta de Quiénes Somos
 Route::get('/quienes-somos', function () {
     return view('quienes-somos');
@@ -72,9 +70,9 @@ Route::get('/coleccion', [ProductoController::class, 'mostrarColecciones']);
 
 Route::get('/catalogo', [ProductoController::class, 'mostrarColecciones']);
 
-/*Route::get('/catalogo', function () {
-    return view('coleccion');
-});*/
+Route::get('/catalogo/todos', [ProductoController::class, 'mostrarTodos']);
+
+Route::get('/catalogo/{categoria}', [ProductoController::class, 'mostrarCategoria']);
 
 Route::get('/construccion', function () {
     return view('construccion'); 
